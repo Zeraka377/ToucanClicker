@@ -67,7 +67,9 @@ img {
     height: 100%;
     width: 100%;
     height: 100%;
-    background-color: rgba(41, 41, 41, 0.89);
+    background: rgba(41, 41, 41, 0.678);
+
+
 
 }
 .centre {
@@ -85,17 +87,17 @@ img {
 .droite {
     width: 100%;
     height: 100%;
-    background-color: rgba(41, 41, 41, 0.89);
+    background: rgba(41, 41, 41, 0.678);
 
 
 
 }
 .topc {
-    background-color: rgba(41, 41, 41, 0.89);
+  background: rgba(41, 41, 41, 0.678);
     height: 30%;
 }
 .botc {
-    background-color: rgba(22, 22, 22, 0.589);
+  background: rgba(41, 41, 41, 0);
     height: 61.3%;
     padding-top: 50px;
     border-top: 4px solid rgb(12, 12, 12);
@@ -196,7 +198,7 @@ h2 {
     outline-offset: -12px;
     outline: 4px solid rgb(12, 12, 12) ;
     background-color: rgba(29, 29, 27, 0.253);
-
+    backdrop-filter: blur(5px);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -658,4 +660,41 @@ p {
 #subjectname {
   margin-top: 0;
   font-size: 40px;
+}
+
+.tou {
+  font-size: 30px;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  font-family:"erzer";
+  font-style: normal;
+  font-weight: normal;
+  outline: none;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 5px;
+
+}
+
+.toue {
+  font-size: 30px;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  font-family:"erzer";
+  font-style: normal;
+  font-weight: normal;
+  outline: none;
+  text-decoration: none;
+  padding-top: 10px;
+
+}
+
+.discordinv {
+  height: 30px;
+  margin-left: 130px;
+  padding-right: 10px;
 }

@@ -733,7 +733,7 @@ antimatieretoucanprice = (Math.pow(1.15, antimatieretoucan)) * antimatieretoucan
 
 $(document).ready(function () {
     // $("#cps").html("clicks⠀ par⠀ secondes⠀ :⠀ " + tps);
-    $("#playersclickstotal").html("clicks⠀ du⠀ joueur⠀ :⠀ " + nFormatter(playersclickstotal));
+    $("#playersclickstotal").html("toucans⠀ du⠀ joueur⠀ :⠀ " + nFormatter(playersclickstotal));
     clickerupgradeprice = 50000 * (1 + Math.pow(100, clickerupgrade))
     console.log(clickerupgradeprice + "  " + clickerupgrade)
     $(document).ready(function () {
@@ -1614,8 +1614,8 @@ $(document).ready(function () {
                 + prodantimatieretoucan * antimatieretoucan * antimatieretoucanfacteur
 
 
-            $("#cps").html("clicks⠀ par⠀ secondes⠀ :⠀ " + tps);
-            $("#playersclickstotal").html("clicks⠀ du⠀ joueur⠀ :⠀ " + nFormatter(playersclickstotal));
+            $("#cps").html("toucans⠀ par⠀ secondes⠀ :⠀ " + tps);
+            $("#playersclickstotal").html("toucans⠀ du⠀ joueur⠀ :⠀ " + nFormatter(playersclickstotal));
             prodclickerupgrade = 1000 * (1 + 100 * clickerupgrade)
             if (playersclickstotal >= prodclickerupgrade) {
                 $("#clickerupgradehover").show()
