@@ -708,7 +708,7 @@ function Loader() {
         toucan = (parseInt(getCookie('toucan')));
 
     } else {
-        console.log("zre")
+
     }
 
 
@@ -1516,7 +1516,7 @@ $(document).ready(function () {
             }
 
 
-            console.log(stage + "rzegiojeruigeriogherh")
+
 
 
             if (stage == 11) {
@@ -1614,7 +1614,7 @@ $(document).ready(function () {
                 + prodantimatieretoucan * antimatieretoucan * antimatieretoucanfacteur
 
 
-            $("#cps").html("toucans⠀ par⠀ secondes⠀ :⠀ " + tps);
+            $("#cps").html("toucans⠀ par⠀ secondes⠀ :⠀ " + nFormatter(tps));
             $("#playersclickstotal").html("toucans⠀ du⠀ joueur⠀ :⠀ " + nFormatter(playersclickstotal));
             prodclickerupgrade = 1000 * (1 + 100 * clickerupgrade)
             if (playersclickstotal >= prodclickerupgrade) {
@@ -1880,7 +1880,7 @@ $(document).ready(function () {
     })
     cagelvlchecker()
     function cagelvlchecker() {
-        console.log("TERUIHGEUITHREUIHGERIUGHERIOUHGO")
+
         if (cage >= 1 && cagelvl == 1) {
             $('.upcage').show()
             $(".upcage").on("click", function (clickupdat) {
